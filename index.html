@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Koťata</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-B/GM4XqrwHnWXNOWMbloTmrYXZg10cakYGmpfsR/bbzQ6JAJI4ihuyADKLnBgrCe" crossorigin="anonymous">
+<script type="module" src="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-1a/pXj49ZQ1aHEmrJ+gMw1otqoVsYwlEnlD8mIfY2TV03r20Y0CN7uqx1tQogjPL" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav class="navbar md:navbar-expand bg-1">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Stanice Hájek</a>
+    <button class="btn-icon navbar-toggler" type="button" data-bs-toggle="drawer" data-bs-target="#navbarDrawer" aria-controls="navbarDrawer" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon" aria-hidden="true"></span>
+    </button>
+    <dialog class="drawer drawer-end" tabindex="-1" id="navbarDrawer" aria-labelledby="navbarDrawerLabel">
+      <div class="drawer-header">
+        <h5 class="drawer-title" id="navbarDrawerLabel">Menu</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="drawer" aria-label="Close"></button>
+      </div>
+      <div class="drawer-body mb-2 md:mb-0">
+        <ul class="nav navbar-nav me-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">O nás</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Plánované vrhy</a>
+          </li>
+          <li class="nav-item">
+            <button class="nav-link" type="button" data-bs-toggle="menu" aria-expanded="false">
+              Kontakt
+            </button>
+            <div class="menu">
+              <a class="menu-item" href="#"></a>
+              <a class="menu-item" href="#">Email</a>
+              <hr class="menu-divider">
+              <a class="menu-item" href="#">Telefon</a>
+            </div>
+          </li>
+        </ul>
+        <form class="hstack gap-2" role="search">
+          <input class="form-control" type="search" placeholder="Search" aria-label="Search"/>
+          <button class="btn-solid btn-icon theme-secondary" type="submit">
+            <svg class="bi" width="16" height="16"><use href="#search" /></svg>
+          </button>
+        </form>
+      </div>
+    </dialog>
+  </div>
+</nav>
+<header class="intro py-5 text-center">
+  <div class="container">
+  <h1>Naše koťata</h1>
+  <p class> Seznamte se s našimi aktualními a plánovanými vrhy. Každému mláděti věnujeme individuální péči a pozornost.
+  </p>
+  <a href="vrhy-PDF" class="btn btn-success mt-3">Prohlédnout všecny vrhy</a>
+</div>
+</header>
+<section class="container py-5">
+    <div class="row text-center g-4">
+      <div class="col-md-4">
+      <h3>Pečlivý výběr</h3>
+      <p>Rodiče vybíráme s ohledem na zdraví, povahu a vhodné genetické předpoklady.</p>
+      </div>
+        <div class="col-md-4">
+    <h3>Individuální péče</h3>
+    <p>Mláďatům poskytujemekvalitní prostředí, správnou výživu a dostatek pozornosti.</p>
+    </div>
+    <div class="col-md-4">
+      <h3>Zdraví na prvním místě</h3>
+      <p>Dbáme na pravidelné veterinární kontrol a potřebná zdravotní vyšetření.</p>
+    </div>
+  </div>
+  </div>
+  </div>
+</section>
+  <section id="vrhy" class="py-5 bg-dark">
+
+  </section>
+</div>
+</body>
+</html>
